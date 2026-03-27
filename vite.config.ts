@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: true,          // WAJIB → expose ke luar localhost
-    allowedHosts: 'all', // allow ngrok domain
+    allowedHosts: true,  // allow all hosts for ngrok domain
   },
 })
